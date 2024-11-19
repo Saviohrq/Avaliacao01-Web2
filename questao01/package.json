@@ -1,0 +1,12 @@
+{
+  "name": "questao01",
+  "version": "1.0.0",
+  "description": "resolvendo questao da primeira avaliacao",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sávio Henrique",
+  "license": "ISC"
+}

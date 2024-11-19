@@ -1,5 +1,5 @@
-//import cs from "./cesar.js"
+import cs from "./cesar.js"
 
-var m = ["m", "e", "n", "s", "a", ]
+var m = ["a"]
 
-console.log(m)
+console.log(cs.criptografia("a", 3))
