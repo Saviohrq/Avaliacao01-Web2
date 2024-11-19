@@ -3,18 +3,32 @@ let alfa = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "m"
 function criptografia(mensagem, chave, converter){
     let m = mensagem
     let mConvertida = []
-    for(let i = 0; i <= m.length; i++){
-        if(m[i] != " "){
-            mConvertida[i] = converter(m[i], chave) 
-        }
-        else{
-            mConvertida[i] = " "
-        }
-    }
 
-    for(let i = 0; i <= mConvertida.length; i ++){
+    if(converter == c){
 
+        for(let i = 0; i <= m.length; i++){
+            if(m[i] != " "){
+                mConvertida[i] = cifraLetra(m[i], chave) 
+            }
+            else{
+                mConvertida[i] = " "
+            }
+        }
+    
     }
+    else if(converter == d){
+
+        for(let i = 0; i <= m.length; i++){
+            if(m[i] != " "){
+                mConvertida[i] = decifraLetra(m[i], chave) 
+            }
+            else{
+                mConvertida[i] = " "
+            }
+        }
+    
+    }
+    
 }
 
 function cifraLetra(letra, chave){
